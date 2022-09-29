@@ -15,7 +15,9 @@
     background: green;
     grid-area: navigasi;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 .satu{
     width: 80px;
@@ -37,6 +39,11 @@
     width: 80px;
     height: 80px;
     background-color: palevioletred;
+}
+.lima {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .banner{
