@@ -3,10 +3,10 @@
   grid-template-columns: 1fr 3fr 2fr 2fr;
   grid-template-rows: 2fr 2fr 16fr 1fr;
   grid-template-areas:
-    "navigasi navigasi navigasi banner"
-    "iklan content content banner"
-    "iklan content content banner"
-    "footer footer footer footer";
+    'navigasi navigasi navigasi banner'
+    'iklan content content banner'
+    'iklan content content banner'
+    'footer footer footer footer';
   height: 100vh;
   row-gap: 10px;
   column-gap: 20px;
@@ -14,9 +14,6 @@
 .navigasi {
   background: green;
   grid-area: navigasi;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 .satu {
   width: 80px;
